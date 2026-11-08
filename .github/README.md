@@ -3,7 +3,7 @@
 **The first ever Custom Survival map for Black Ops 7 Zombies (Kronos)**
 by DellxCell (The Hamster)
 
-![Rampage Inducer on the barrel, with the lake cabin behind it](../Screenshots/rampage-inducer.png)
+![The pyramid floating over Blackwater Lake](../Screenshots/pyramid.png)
 
 ## Modes
 
@@ -30,6 +30,8 @@ Grab perks from the Wunderfizz machine inside the cabin.
 ### Rampage Inducer
 
 The Rampage Inducer sits on the barrel by the cabin wall. Turn it on when you want the rounds to speed up.
+
+![Rampage Inducer on the barrel, with the lake cabin behind it](../Screenshots/rampage-inducer.png)
 
 ### T.E.D.D. Tasks
 
