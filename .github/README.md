@@ -1,6 +1,6 @@
 # Blackwater Lake
 
-**A custom Survival map for Black Ops 7 Zombies (Kronos)**
+**The first ever Custom Survival map for Black Ops 7 Zombies (Kronos)**
 by DellxCell (The Hamster)
 
 ![Rampage Inducer on the barrel, with the lake cabin behind it](../Screenshots/rampage-inducer.png)
