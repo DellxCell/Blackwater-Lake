@@ -23,12 +23,6 @@ Upgrade your weapons out on the snowy deck of the cabin.
 ![Pack-a-Punch on the cabin deck](../Screenshots/pack-a-punch.png)
 ![Pack-a-Punch, close up](../Screenshots/pack-a-punch-2.png)
 
-### Mystery Box in the cabin
-
-Try your luck at the Box by the fireplace in the cabin's main room.
-
-![Mystery Box inside the cabin](../Screenshots/mystery-box.png)
-
 ### Der Wunderfizz
 
 Grab perks from the Wunderfizz machine inside the cabin.
@@ -44,6 +38,10 @@ The Rampage Inducer sits on the barrel by the cabin wall. Turn it on when you wa
 In Cursed Survival, T.E.D.D. Tasks run from the console at the lake cabin. Start a task, finish it, and come back for your reward.
 
 ![T.E.D.D. Tasks console in the cabin](../Screenshots/tedd-tasks.png)
+
+Your reward is waiting in the T.E.D.D. reward box in the cabin's main room.
+
+![T.E.D.D. reward box in the cabin](../Screenshots/tedd-reward-box.png)
 
 ### Also at the lake
 
