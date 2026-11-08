@@ -5,8 +5,6 @@ by DellxCell (The Hamster)
 
 ![Rampage Inducer on the barrel, with the lake cabin behind it](../Screenshots/rampage-inducer.png)
 
-Blackwater Lake turns the snowed-in lake area of Ashes of the Damned into its own Survival map. Hold out around the lakefront, the log cabin and its upper floor, the toolshed, the cliffs, and the paths to the north and south. Everything you need is packed into the area around the lake.
-
 ## Modes
 
 | Mode | Where to find it | Players |
