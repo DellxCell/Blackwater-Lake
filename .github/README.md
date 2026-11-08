@@ -65,6 +65,9 @@ Your reward is waiting in the T.E.D.D. reward box in the cabin's main room.
 >
 > You don't need to back them up. To put the original Kronos files back at any time, press **Update Now** in the Kronos launcher. After that, Blackwater Lake won't show up in the menu until you copy its files in again.
 
+> [!IMPORTANT]
+> **The launcher will say 4 files are "Outdated". That's normal.** After you install, the Updates page in the Kronos launcher lists the four files above as **Outdated**, because they no longer match the Kronos originals. Nothing is broken. Just don't press **Update Now**, or the map will disappear from the menu.
+
 No DLLs or system files are involved. Everything stays inside the Kronos folder. Full install, removal and technical notes are in [README.txt](../README.txt).
 
 ## Known issues
