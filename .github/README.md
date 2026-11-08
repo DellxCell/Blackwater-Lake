@@ -19,6 +19,7 @@ by DellxCell (The Hamster)
 Upgrade your weapons out on the snowy deck of the cabin.
 
 ![Pack-a-Punch on the cabin deck](../Screenshots/pack-a-punch.png)
+
 ### Der Wunderfizz
 
 Grab perks from the Wunderfizz machine inside the cabin.
