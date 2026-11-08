@@ -14,6 +14,12 @@ by DellxCell (The Hamster)
 
 ## What's at the lake
 
+### Rampage Inducer
+
+The Rampage Inducer sits on the barrel by the cabin wall. Turn it on when you want the rounds to speed up.
+
+![Rampage Inducer on the barrel, with the lake cabin behind it](../Screenshots/rampage-inducer.png)
+
 ### Pack-a-Punch on the cabin deck
 
 Upgrade your weapons out on the snowy deck of the cabin.
@@ -25,12 +31,6 @@ Upgrade your weapons out on the snowy deck of the cabin.
 Grab perks from the Wunderfizz machine inside the cabin.
 
 ![Der Wunderfizz inside the cabin](../Screenshots/wunderfizz.png)
-
-### Rampage Inducer
-
-The Rampage Inducer sits on the barrel by the cabin wall. Turn it on when you want the rounds to speed up.
-
-![Rampage Inducer on the barrel, with the lake cabin behind it](../Screenshots/rampage-inducer.png)
 
 ### T.E.D.D. Tasks
 
