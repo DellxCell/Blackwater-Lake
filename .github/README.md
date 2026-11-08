@@ -51,13 +51,19 @@ Your reward is waiting in the T.E.D.D. reward box in the cabin's main room.
 ## Install
 
 1. Close Black Ops 7 and KronosLauncher completely.
-2. Back up these four files in `C:\Kronos\cod25\kronos`, because they get replaced:
-   - `Assets\Lua\zm_local_start_post.lua`
-   - `Assets\Lua\csm_mayhem_relic_post.lua`
-   - `Assets\Lua\ui\LUIFPSCounter.lua`
-   - `custom_scripts\csm_survival.gscc`
-3. Copy the `Assets`, `custom_scripts` and `blackwater_rampage` folders into `C:\Kronos\cod25\kronos` and replace the existing files.
+2. Copy the `Assets`, `custom_scripts` and `blackwater_rampage` folders into `C:\Kronos\cod25\kronos`.
+3. Windows will tell you that some files already exist. **This is normal.** Choose **Replace the files in the destination**. If you get the "Which files do you want to keep?" window instead, tick **Files from Blackwater Lake** at the top so every file on the left is selected, then click **Continue**.
 4. Launch the game through Kronos as usual.
+
+> [!NOTE]
+> **Replacing Kronos files is expected.** Blackwater Lake adds its map entries to four existing Kronos files, so those four files get replaced:
+>
+> - `Assets\Lua\zm_local_start_post.lua`
+> - `Assets\Lua\csm_mayhem_relic_post.lua`
+> - `Assets\Lua\ui\LUIFPSCounter.lua`
+> - `custom_scripts\csm_survival.gscc`
+>
+> You don't need to back them up. To put the original Kronos files back at any time, press **Update Now** in the Kronos launcher. After that, Blackwater Lake won't show up in the menu until you copy its files in again.
 
 No DLLs or system files are involved. Everything stays inside the Kronos folder. Full install, removal and technical notes are in [README.txt](../README.txt).
 
