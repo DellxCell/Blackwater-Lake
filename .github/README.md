@@ -52,7 +52,7 @@ Your reward is waiting in the T.E.D.D. reward box in the cabin's main room.
 
 ## Install
 
-**From the Kronos Workshop:** find Blackwater Lake and install it.
+**From the Kronos Workshop:** once it's approved ([submitted](https://github.com/Divity/kronos-data/pull/51)), find Blackwater Lake and install it.
 
 **By hand:**
 
@@ -67,7 +67,7 @@ The release also lists the mod's files one by one, without folders. Those are fo
 > Blackwater Lake is a Kronos mod in its own folder. It doesn't replace any Kronos or game files, so nothing shows as "Outdated" in the launcher, and no DLLs or system files are involved. To remove it, delete `C:\Kronos\cod25\kronos\mods\blackwater_lake`.
 
 > [!IMPORTANT]
-> **Upgrading from the old v1.0 (the version you copied into the Kronos folder):** first press **Update Now** in the Kronos launcher to put the original Kronos files back, then delete these old Blackwater files from `C:\Kronos\cod25\kronos`, and install the mod as above:
+> **Upgrading from the old version (the one you copied into the Kronos folder, released November 8):** first press **Update Now** in the Kronos launcher to put the original Kronos files back, then delete these old Blackwater files from `C:\Kronos\cod25\kronos`, and install the mod as above:
 >
 > - `custom_scripts\zm_blackwater_lake.gsc` and `custom_scripts\zm_blackwater_lake.gscc`
 > - `Assets\Lua\blackwater_intro_post.lua`
