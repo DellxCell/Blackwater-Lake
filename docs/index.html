@@ -10,7 +10,6 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/DellxCell/Blackwater-Lake/main/Screenshots/pyramid.png">
 <meta property="og:url" content="https://dellxcell.github.io/Blackwater-Lake/">
 <meta name="theme-color" content="#06b6d4">
-<link rel="icon" type="image/svg+xml" href="logo.svg">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: the Kronos Plus page's single dark column: brand header, a highlight panel, feature columns, screenshots, get started. */
@@ -42,7 +41,6 @@ body {
 }
 main { max-width: 860px; margin: 0 auto; display: grid; gap: 40px; }
 header { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
-header img.logo { width: 72px; height: 72px; flex: none; }
 h1 { font: 700 44px/1 var(--display); margin: 0; letter-spacing: .5px; text-wrap: balance; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
 h1 .hl { color: var(--accent-hi); }
 h1 .ver { font: 600 14px var(--mono); color: var(--accent-hi); border: 1px solid rgba(var(--accent-rgb), .45); background: rgba(var(--accent-rgb), .1); padding: 3px 10px; border-radius: 999px; letter-spacing: 0; }
@@ -83,14 +81,12 @@ footer a:hover { color: var(--text); }
 @media (max-width: 560px) {
   body { padding-block: 28px 32px; }
   h1 { font-size: 32px; }
-  header img.logo { width: 56px; height: 56px; }
 }
 </style>
 </head>
 <body>
 <main>
   <header>
-    <img class="logo" src="logo.svg" alt="">
     <div style="min-width:0;flex:1">
       <h1><span>Blackwater <span class="hl">Lake</span></span><span class="ver">1.0</span></h1>
       <p class="tag">The first ever Custom Survival map for Black Ops 7 Zombies, made for Kronos. Survive at the lake, cabin and cliffs of Ashes of the Damned, in Survival or Cursed Survival.</p>
