@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blackwater Lake</title>
+<meta name="description" content="The first ever Custom Survival map for Black Ops 7 Zombies, made for Kronos.">
+<meta property="og:title" content="Blackwater Lake 1.0">
+<meta property="og:description" content="The first ever Custom Survival map for Black Ops 7 Zombies, made for Kronos.">
+<meta property="og:image" content="https://raw.githubusercontent.com/DellxCell/Blackwater-Lake/main/Screenshots/pyramid.png">
+<meta property="og:url" content="https://dellxcell.github.io/Blackwater-Lake/">
+<meta name="theme-color" content="#06b6d4">
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: the Kronos Plus page's single dark column: brand header, a highlight panel, feature columns, screenshots, get started. */
+:root {
+  color-scheme: dark;
+  --bg: #0d0f13;
+  --panel: #171a21;
+  --line: #262b35;
+  --text: #e9ecf1;
+  --muted: #9aa3b2;
+  --accent: #06b6d4;
+  --accent-hi: #a5f3fc;
+  --accent-rgb: 6, 182, 212;
+  --info: #6aa8ff;
+  --ok: #3ccf7f;
+  --display: "Chakra Petch", "Segoe UI", system-ui, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", Consolas, ui-monospace, monospace;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 48px 40px;
+}
+main { max-width: 860px; margin: 0 auto; display: grid; gap: 40px; }
+header { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+header img.logo { width: 72px; height: 72px; flex: none; }
+h1 { font: 700 44px/1 var(--display); margin: 0; letter-spacing: .5px; text-wrap: balance; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+h1 .hl { color: var(--accent-hi); }
+h1 .ver { font: 600 14px var(--mono); color: var(--accent-hi); border: 1px solid rgba(var(--accent-rgb), .45); background: rgba(var(--accent-rgb), .1); padding: 3px 10px; border-radius: 999px; letter-spacing: 0; }
+.tag { margin: 6px 0 0; color: var(--muted); max-width: 62ch; }
+.promise { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.promise span { font: 500 12px var(--mono); padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); }
+.promise span::before { content: "\2713  "; color: var(--ok); }
+.cta { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-top: 16px; }
+a.get { font: 600 14px var(--body); color: #0b0710; text-decoration: none; background: linear-gradient(135deg, var(--accent-hi), var(--accent)); border-radius: 10px; padding: 10px 16px; }
+a.src { font: 500 14px var(--body); color: var(--text); text-decoration: none; border: 1px solid var(--line); border-radius: 10px; padding: 9px 15px; }
+a.src:hover { border-color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--info); outline-offset: 2px; }
+.get-note { color: var(--muted); font-size: 13px; }
+.hero { margin: 0; }
+.hero img { width: 100%; aspect-ratio: 2 / 1; object-fit: cover; display: block; border-radius: 14px; border: 1px solid var(--line); }
+.new { border: 1px solid rgba(var(--accent-rgb), .4); border-radius: 14px; padding: 20px 22px; background: linear-gradient(135deg, rgba(var(--accent-rgb), .10), rgba(var(--accent-rgb), .03) 60%), var(--panel); }
+.new .feats { grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); column-gap: 32px; }
+.new .feats li { border-left-color: var(--accent); }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 32px; }
+.cols > section { min-width: 0; }
+h2 { font: 600 13px var(--display); text-transform: uppercase; letter-spacing: 2px; color: var(--accent-hi); margin: 0 0 4px; }
+.where { margin: 0 0 14px; color: var(--muted); font-size: 13px; }
+ul.feats { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.feats li { display: grid; gap: 2px; padding-left: 14px; border-left: 2px solid var(--line); min-width: 0; }
+.feats b { font-weight: 600; }
+.feats span { color: var(--muted); font-size: 14px; }
+.shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 14px; }
+.shots figure { margin: 0; display: grid; gap: 6px; }
+.shots img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 10px; border: 1px solid var(--line); }
+.shots figcaption { color: var(--muted); font-size: 13px; }
+.start { display: grid; gap: 10px; }
+.start ol, .start ul { margin: 0; padding-left: 20px; color: var(--muted); display: grid; gap: 6px; }
+.start b { color: var(--text); font-weight: 600; }
+code { font: 13px var(--mono); color: var(--text); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; overflow-wrap: anywhere; }
+footer { border-top: 1px solid var(--line); padding-top: 18px; color: var(--muted); font-size: 13px; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+footer a { color: var(--muted); }
+footer a:hover { color: var(--text); }
+@media (max-width: 560px) {
+  body { padding-block: 28px 32px; }
+  h1 { font-size: 32px; }
+  header img.logo { width: 56px; height: 56px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="logo" src="logo.svg" alt="">
+    <div style="min-width:0;flex:1">
+      <h1><span>Blackwater <span class="hl">Lake</span></span><span class="ver">1.0</span></h1>
+      <p class="tag">The first ever Custom Survival map for Black Ops 7 Zombies, made for Kronos. Survive at the lake, cabin and cliffs of Ashes of the Damned, in Survival or Cursed Survival.</p>
+      <div class="promise"><span>Survival and Cursed Survival</span><span>Solo or a squad of 4</span><span>No game files replaced</span><span>Free</span></div>
+      <div class="cta">
+        <a class="get" href="https://github.com/DellxCell/Blackwater-Lake/releases/latest">Download</a>
+        <a class="src" href="https://github.com/DellxCell/Blackwater-Lake">Source code</a>
+        <span class="get-note">Kronos Workshop listing waiting for approval.</span>
+      </div>
+    </div>
+  </header>
+
+  <figure class="hero"><img src="https://raw.githubusercontent.com/DellxCell/Blackwater-Lake/main/Screenshots/pyramid.png" alt="The pyramid floating over Blackwater Lake"></figure>
+  <section class="new">
+    <h2>At the lake</h2>
+    <p class="where">A whole Survival map around the lake cabin</p>
+    <ul class="feats">
+      <li><b>Pack-a-Punch</b><span>Out on the snowy deck of the cabin.</span></li>
+      <li><b>Der Wunderfizz</b><span>Inside the cabin.</span></li>
+      <li><b>Rampage Inducer</b><span>On the barrel by the cabin wall. Turn it on when you want the rounds to speed up.</span></li>
+      <li><b>T.E.D.D. Tasks</b><span>In Cursed Survival, from the console at the cabin; the reward box is in the main room.</span></li>
+    </ul>
+  </section>
+
+  <div class="cols">
+  <section>
+    <h2>Modes</h2>
+    <p class="where">Pick it like any other map</p>
+    <ul class="feats">
+      <li><b>Survival</b><span>Zombies &gt; Survival &gt; Blackwater Lake.</span></li>
+      <li><b>Cursed Survival</b><span>Zombies &gt; Cursed Survival &gt; Blackwater Lake, relics included.</span></li>
+      <li><b>Squads</b><span>Solo, or a squad of up to 4.</span></li>
+      <li><b>Exfil</b><span>After a successful exfil the match ends and moves on by itself.</span></li>
+    </ul>
+  </section>
+  <section>
+    <h2>Also</h2>
+    <p class="where">Kronos features that work at the lake</p>
+    <ul class="feats">
+      <li><b>Mister Peeks Mayhem</b><span>Pick the Mr. Peeks relic in Cursed Survival; shoot him above the cabin entrance to drop an egg.</span></li>
+      <li><b>Restore Power</b><span>The objective shows on the HUD, with its timer during the pump and vines step.</span></li>
+      <li><b>Klaus</b><span>Summon Klaus and he fights alongside you.</span></li>
+      <li><b>Loading intro</b><span>A 15-second picture intro of the cabin, pool room, living room, pyramid and entrance.</span></li>
+    </ul>
+  </section>
+  </div>
+
+  <section>
+    <h2>Screenshots</h2>
+    <div class="shots">
+    <figure><img loading="lazy" src="https://raw.githubusercontent.com/DellxCell/Blackwater-Lake/main/Screenshots/pack-a-punch.png" alt="Pack-a-Punch on the cabin deck"><figcaption>Pack-a-Punch on the cabin deck</figcaption></figure>
+    <figure><img loading="lazy" src="https://raw.githubusercontent.com/DellxCell/Blackwater-Lake/main/Screenshots/wunderfizz.png" alt="Der Wunderfizz inside the cabin"><figcaption>Der Wunderfizz inside the cabin</figcaption></figure>
+    <figure><img loading="lazy" src="https://raw.githubusercontent.com/DellxCell/Blackwater-Lake/main/Screenshots/rampage-inducer.png" alt="Rampage Inducer by the cabin"><figcaption>Rampage Inducer by the cabin</figcaption></figure>
+    <figure><img loading="lazy" src="https://raw.githubusercontent.com/DellxCell/Blackwater-Lake/main/Screenshots/tedd-tasks.png" alt="T.E.D.D. Tasks console"><figcaption>T.E.D.D. Tasks console</figcaption></figure>
+    <figure><img loading="lazy" src="https://raw.githubusercontent.com/DellxCell/Blackwater-Lake/main/Screenshots/tedd-reward-box.png" alt="T.E.D.D. reward box"><figcaption>T.E.D.D. reward box</figcaption></figure>
+    </div>
+  </section>
+  <section class="start">
+    <h2>Get started</h2>
+    <ol>
+      <li>Set up <b>Kronos</b> and run its launcher at least once.</li>
+      <li>Download <b>Blackwater-Lake-1.0.zip</b> from the latest release.</li>
+      <li>Close <b>Black Ops 7</b> and <b>KronosLauncher</b>, then extract the zip into <code>C:\Kronos\cod25\kronos\mods</code>. You should end up with <code>mods\blackwater_lake\mod.json</code>.</li>
+      <li>Launch through Kronos and pick <b>Blackwater Lake</b> in Survival or Cursed Survival.</li>
+    </ol>
+  </section>
+
+  <section class="start">
+    <h2>Good to know</h2>
+    <ul>
+      <li>Had the old version you copied into the Kronos folder (November 8)? Press <b>Update Now</b> in the Kronos launcher and delete the old Blackwater files first; the README lists them.</li>
+      <li>Avoid Save &amp; Quit on this map; a Blackwater save may resume as Ashes of the Damned.</li>
+      <li>Squad play hasn't been fully tested yet.</li>
+    </ul>
+  </section>
+  <footer>
+    <span>Black Ops 7 + Kronos</span>
+    <span>Made by <b>DellxCell</b> (The Hamster)</span>
+    <span><a href="https://github.com/DellxCell/Blackwater-Lake">Source code and releases on GitHub</a></span>
+    <span>Fan-made. Not affiliated with the Kronos team or Activision.</span>
+  </footer>
+</main>
+</body>
+</html>

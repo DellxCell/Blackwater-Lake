@@ -8,6 +8,8 @@ Survive at the lake, cabin and cliffs of Ashes of the Damned, in Survival or Cur
 
 ![The pyramid floating over Blackwater Lake](../Screenshots/pyramid.png)
 
+**Website:** https://dellxcell.github.io/Blackwater-Lake/
+
 ## Download
 
 Get the zip from **[Releases](https://github.com/DellxCell/Blackwater-Lake/releases)** and follow [Install](#install) below. It's also submitted to the Kronos Workshop ([pull request](https://github.com/Divity/kronos-data/pull/51)); once it's approved you can install it from there.
